@@ -2,48 +2,54 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="./">
+  <link rel="stylesheet" href="style.css">
   <title>DEMODAY</title>
 </head>
 <body>
-  <div class="container">
-    <header>
+  <header>
+    <div class="header_left">
+      <span class="header_logo">
+        <a href="contact.html">Contact</a>
+      </span>
+    </div>
+    <div class="header_right">
       <nav>
         <!-- nav必要か？ -->
         <ul class="top_menu">
-          <li><a href="contact.html">Contact</a></li>
           <li><a href="index.html">Top</a></li>
           <li><a href="about.html">About</a></li>
         </ul>
       </nav>
-    </header>
-  <div class="wrapper">
-      <article class="content">
-        <form action="contact"　method="#" action="#">
-          <table>
-            <tr>
-              <th>お名前</th>
-              <td><input class="input_form" type="text" name="name"></td>
-            </tr>
-            <tr>
-              <th>住所</th>
-              <td><input class="input_form" type="text" name="address"></td>
-            </tr>
-            <tr>
-              <th>電話番号</th>
-              <td><input type="input_form" type="text" name="phone"></td>
-            </tr>
-            <tr>
-              <th>メールアドレス</th>
-              <td><input type="input_form" type="text" name="mail"></td>
-            </tr>
-          </table>
-            <div class="botton">
-              <input type="submit" value="送 信" class="size">
-            </div>
-        </form>
-      </article>
-  </div>
+    </div>
+  </header>
+  <div class="container">
+    <div class="wrapper">
+        <article class="content">
+          <form action="contact"　method="#" action="#">
+            <table>
+              <tr>
+                <th>お名前</th>
+                <td><input class="input_form" type="text" name="name"></td>
+              </tr>
+              <tr>
+                <th>住所</th>
+                <td><input class="input_form" type="text" name="address"></td>
+              </tr>
+              <tr>
+                <th>電話番号</th>
+                <td><input class="input_form" type="text" name="phone"></td>
+              </tr>
+              <tr>
+                <th>メールアドレス</th>
+                <td><input class="input_form" type="text" name="mail"></td>
+              </tr>
+            </table>
+              <div class="button">
+                <input type="submit" value="送 信" class="size">
+              </div>
+          </form>
+        </article>
+    </div>
     <footer>
       <!-- <p>footerは何か入れた方が良いのでは？</p> -->
     </footer>
